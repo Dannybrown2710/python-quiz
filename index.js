@@ -360,16 +360,6 @@ function loadQuestions(){
       ],
     },
     {
-      Q: "Which of the following commands will create a list?",
-      A: 4,
-      C: [
-        "list1 = list();",
-        "list1 = [];",
-        "list1 = list([1, 2, 3]);",
-        "all of the mentioned;",
-      ],
-    },
-    {
       Q: "What is the output when we execute list('hello')?",
       A: 1,
       C: ["['h', 'e', 'l', 'l', 'l']", "['hello']", "['llo']", "['olleh']"],
