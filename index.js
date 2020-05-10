@@ -15,7 +15,7 @@ if(window.location.search){
 
 // Set the date we're counting down to
 var cd = new Date();
-cd.setMinutes(cd.getMinutes() + 1);
+cd.setMinutes(cd.getMinutes() + 50);
 var countDownDate = cd.getTime();
 console.log(countDownDate);
 // Update the count down every 1 second
