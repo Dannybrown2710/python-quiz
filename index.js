@@ -510,7 +510,7 @@ function loadQuestions(){
     {
       Q: "19 % 2 in python",
       A: 4,
-      C: ["17", "2", "0", "None"],
+      C: ["17", "2", "0", "1"],
     },
     {
       Q: "Which of the following has more precedance?",
