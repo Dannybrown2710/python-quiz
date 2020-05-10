@@ -1,0 +1,88 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="index.css" rel="stylesheet" >
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+        <div class="row"><br>
+            <span class="image-position">
+                <h3 class="login-user"></h3>
+            </span>
+        </div>
+        <div class="row"><br><br>
+            <div class="col-sm-8 col-sm-offset-2 quiz-window">
+                <div class="loader">
+                    <div class="col-xs-3 col-xs-offset-5">
+                        <div id="loadbar" style="display: none;">
+                            <img src="https://8finatics.s3.amazonaws.com/static/reload_emi.gif" alt="Loading" class="center-block loanParamsLoader" style="">
+                        </div>
+                    </div>
+                    <p id="timer"></p>
+                    <div id="quiz">
+                  
+                        <div class="question">
+                            <h3><span class="label label-warning" id="qid">1</span>
+                            <span id="question"></span>
+                            </h3>
+                        </div>
+                        <ul>
+                          <li>
+                            <input type="radio" id="f-option" name="selector" value="1">
+                            <label for="f-option" class="element-animation"></label>
+                            <div class="check"></div>
+                          </li>
+                          
+                          <li>
+                            <input type="radio" id="s-option" name="selector" value="2">
+                            <label for="s-option" class="element-animation"></label>
+                            <div class="check"><div class="inside"></div></div>
+                          </li>
+                          
+                          <li>
+                            <input type="radio" id="t-option" name="selector" value="3">
+                            <label for="t-option" class="element-animation"></label>
+                            <div class="check"><div class="inside"></div></div>
+                          </li>
+                          <li>
+                            <input type="radio" id="fr-option" name="selector" value="3">
+                            <label for="t-option" class="element-animation"></label>
+                            <div class="check"><div class="inside"></div></div>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-muted">
+                    <span id="answer"></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div id="result-of-question" class="pulse animated" style="display: none;">
+                    <span id="totalCorrect" class="pull-right"></span>
+                    <table class="table table-hover table-responsive" >
+                        <thead>
+                            <tr>
+                                <th>Question No.</th>
+                                <th>Our answer</th>
+                                <th>Your answer</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody id="quizResult"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="chartdiv">
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
