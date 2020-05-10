@@ -362,7 +362,7 @@ function loadQuestions(){
     {
       Q: "What is the output when we execute list('hello')?",
       A: 1,
-      C: ["['h', 'e', 'l', 'l', 'l']", "['hello']", "['llo']", "['olleh']"],
+      C: ["['h', 'e', 'l', 'l', 'o']", "['hello']", "['llo']", "['olleh']"],
     },
     {
       Q:
