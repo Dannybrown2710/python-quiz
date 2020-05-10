@@ -448,7 +448,7 @@ function loadQuestions(){
     },
     {
       Q:
-        "If a function doesnot have a return statement, which of the following does the function return?",
+        "If a function doesn't have a return statement, which of the following does the function return?",
       A: 3,
       C: [
         "int",
