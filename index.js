@@ -402,7 +402,7 @@ function loadQuestions(){
       C: ["Error, tuple slicing doesnt exist", "[2,3]", "(2,3,4)", "(2,3)"],
     },
     {
-      Q: " What is the data type of (1)?",
+      Q: " What is the data type of 1?",
       A: 2,
       C: ["Tuple", "Integer", "List", "Both tuple and integer"],
     },
@@ -458,19 +458,9 @@ function loadQuestions(){
       ],
     },
     {
-      Q: "Syntax of constructor in Python?",
-      A: 1,
-      C: ["def __init__()", "def _init_()", "_init_()", "All of these"],
-    },
-    {
       Q: "The format function, when applied on a string returns :",
       A: 4,
       C: ["list", "bool", "int", "str"],
-    },
-    {
-      Q: "print(chr(ord('b')+1))",
-      A: 3,
-      C: ["b", "syntax error", "c", "b+1"],
     },
     {
       Q: "Which statement is correct....??",
@@ -544,7 +534,7 @@ function loadQuestions(){
     {
       Q: "How do you create a variable with the floating number 2.8?",
       A: 3,
-      C: ["x=2.3", "x=float(2.8)", " I & II", "None of the above"],
+      C: ["x=2.8", "x=float(2.8)", " I & II", "None of the above"],
     },
     {
       Q: "What is the correct way to create a function in Python?",
@@ -559,7 +549,7 @@ function loadQuestions(){
     {
       Q: `In Python, 'Hello', is the same as "Hello"?`,
       A: 1,
-      C: [" True", " False", " -", " -"],
+      C: [" True", " False", "Error", "None"],
     },
     {
       Q: "What is a correct syntax to return the first character in a string?",
@@ -611,7 +601,7 @@ function loadQuestions(){
     {
       Q:
         "What will be the output of the following code <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; output=1 + 'Hello'",
-      A: 3,
+      A: 4,
       C: ["  1Hello", "  1", "  None", "  Error"],
     },
     {
@@ -626,9 +616,10 @@ function loadQuestions(){
       C: ["  Numbers", "  List", "  complex", "  slice"],
     },
     {
-      Q: `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D = {1 : {'A' : {1 : "A"}, 2 : "B"}, 3 :"C", 'B' : "D", "D": 'E'}<br>
+      Q: `D = {1 : {'A' : {1 : "A"}, 2 : "B"}, 3 :"C", 'B' : "D", "D": 'E'}<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(D[D[D[1][2]]], end = " ")
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(D[D[1]["A"][2]])`,
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(D[D[1]["A"][2]])`,
       A: 4,
       C: ["  D C", "  E B", "  D B", "  E KeyError"],
     }
